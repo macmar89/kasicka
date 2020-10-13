@@ -1,17 +1,48 @@
-.jumbotron-fluid {
+body {
+  font-family: fantasy;
+}
+
+header h1 {
+  background: white;
   text-align: center;
   text-transform: uppercase;
+  padding: 20px 0;
+  text-shadow: 3px 3px 3px;
 }
+
+.login {
+  margin: 0 auto;
+  width: 95%;
+  border-bottom: 1px solid #4D668F;
+  
+  display: block;
+
+  padding: 15px 15px;
+  
+}
+.login span, 
+.login button {
+   
+}
+.login button {
+  margin: 0 15px;
+}
+
 .form-group {
-  text-align: center;
+  
 }
-.col-sm h5 {
-  text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-style: oblique;
-}
+
 .container-fluid {
   margin-top: 25px;
 }
-
+.table {
+  
+}
+.table th {
+  background: #8796a4;
+  color: white;
+  
+}
+.table td {
+  
+}
