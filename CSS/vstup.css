@@ -1,8 +1,37 @@
-.container {
-  padding: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border: outset;
-  border-radius: 3px;
-  margin-top: 25px;
+body {
+  width: 600px;
+  border: 1px solid black;
+}
+
+header,
+footer {
+  height: 80px;
+  background: #55f77b;
+}
+span {
+  padding: 5px 20px;
+}
+.vypln {
+}
+
+form {
+  height: 240px;
+}
+form input {
+  padding: 5px 10px;
+  margin: 10px 20px;
+}
+input:hover {
+  cursor: pointer;
+  outline: 1px solid red;
+}
+
+footer {
+  position: relative;
+}
+
+footer button {
+  position: absolute;
+  top: 20px;
+  right: 40px;
 }
