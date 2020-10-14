@@ -1,8 +1,10 @@
 .body {
+  font-family: "Amatic SC", cursive;
+  font-weight: 400;
 }
 header {
   height: 250px;
-  background: springgreen;
+  background-image: linear-gradient(to bottom, #919191, white);
   position: relative;
   font-family: "Amatic SC", cursive;
   font-size: 40px;
@@ -10,9 +12,10 @@ header {
 
 header h1 {
   font-family: "Amatic SC", cursive;
+  color: #d6b136;
   font-size: 130px;
   font-weight: 700;
-  padding-top: 5px;
+  padding-top: 0px;
   text-align: center;
 }
 
@@ -20,18 +23,19 @@ header h1 {
   position: absolute;
   right: 20px;
   bottom: 10px;
+  background: transparent;
 }
 .btn {
-  padding: 0 10px;
+  height: 45px;
+  width: 100px;
   margin: 0 15px;
   font-size: 700;
 }
 
-main {
-  margin-top: 30px;
+section {
+  padding-top: 30px;
 }
 .col-2 {
-  background: burlywood;
 }
 .form-group {
   text-align: center;
@@ -46,9 +50,17 @@ main {
   margin-top: 25px;
 }
 .table {
+  border: 5px solid #e6e6e6;
+  border-radius: 5px;
 }
 
 .table th {
-  background: #163211;
-  color: white;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  font-size: 35px;
+  background: #e6e6e6;
+  color: #d6b136;
+}
+.table tr {
+  border-bottom: 5px solid #e6e6e6;
 }
