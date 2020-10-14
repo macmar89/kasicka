@@ -1,25 +1,30 @@
 .body {
-  font-family: fantasy;
 }
 header {
-  height: 200px;
+  height: 250px;
   background: springgreen;
   position: relative;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
 }
 
 header h1 {
-  padding-top: 50px;
+  font-family: "Amatic SC", cursive;
+  font-size: 130px;
+  font-weight: 700;
+  padding-top: 5px;
   text-align: center;
 }
 
 .head-login {
   position: absolute;
-  right: 30px;
+  right: 20px;
   bottom: 10px;
 }
 .btn {
   padding: 0 10px;
   margin: 0 15px;
+  font-size: 700;
 }
 
 main {
