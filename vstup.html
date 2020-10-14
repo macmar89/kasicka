@@ -26,24 +26,26 @@
     ></script>
   </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <span>Meno: Jožo</span>
-            <hr>
-        </div>
-        <div class="row">
-            <span>Potraviny: <input class="number" placeholder="Zadaj za nákup potravín"></span>
-            <span>Nealko: <input class="number"></span>
-            <span>Alko: <input class="number"></span>
-            <span>Byt/ostatné: <input class="number"></span>
-            <span>Darčeky <input class="number"></span>
-            <span>Šport <input class="number"></span>
-            <hr>
-        </div>
-        <div class="row">
-            <button class="btn btn-primary">Potvrdiť</button>
-        </div>
-        
-    </div>
+   <header>
+     <span>
+       Meno: Jožo
+     </span>
+     <span>Suma: 19,18€</span>
+   </header>
+   <sector class="vypln">
+     <form>
+       <input class="text" name="potraviny" placeholder="Potraviny">
+        <input class="text" name="nealko" placeholder="Nealko">
+        <input class="text" name="alko" placeholder="Alko">
+        <input class="text" name="byt" placeholder="Byt/Ostatné">
+        <input class="text" name="darceky" placeholder="Darčeky">
+        <input class="text" name="sport" placeholder="Šport">
+     </form>
+   </sector>
+   <footer>
+   
+            <button class="btn btn-success" name="potvdit">Potvrdiť</button>
+
+    </footer> 
 </body>
 </html>
