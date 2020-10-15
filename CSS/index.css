@@ -36,9 +36,6 @@ section {
   padding-top: 30px;
 }
 
-.form-group {
-  text-align: center;
-}
 .col-sm h5 {
   text-align: center;
   font-weight: bold;
@@ -47,6 +44,21 @@ section {
 }
 .container-fluid {
   margin-top: 25px;
+}
+
+form {
+  text-align: center;
+  margin: 20px 0;
+}
+
+label {
+  display: none;
+}
+.form-group {
+  display: inline-block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .table {
   border: 5px solid #e6e6e6;
@@ -62,4 +74,14 @@ section {
 }
 .table tr {
   border-bottom: 5px solid #e6e6e6;
+}
+
+@media (min-width: 768px) {
+  label {
+    display: initial;
+  }
+  .form-group {
+    display: initial;
+    width: initial;
+  }
 }
