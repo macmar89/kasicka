@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "Amatic SC", cursive;
   font-weight: 400;
 }
@@ -6,12 +6,10 @@ header {
   height: 250px;
   background-image: linear-gradient(to bottom, #919191, white);
   position: relative;
-  font-family: "Amatic SC", cursive;
   font-size: 40px;
 }
 
 header h1 {
-  font-family: "Amatic SC", cursive;
   color: #d6b136;
   font-size: 130px;
   font-weight: 700;
@@ -24,12 +22,19 @@ header h1 {
   right: 20px;
   bottom: 10px;
   background: transparent;
+  font-size: 1.5rem;
 }
-.btn {
-  height: 45px;
-  width: 100px;
-  margin: 0 15px;
-  font-size: 700;
+.head-login .loginbutton {
+  display: inline-block;
+  color: white;
+  background: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-align: center;
 }
 
 section {
