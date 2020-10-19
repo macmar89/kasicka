@@ -10,28 +10,32 @@
     />
     <title>Kasička</title>
   </head>
-  <body style="font-family: fantasy;">
-       <div class="container">
-           <div class="row">
-            <div class="col-4" >
-                <h3>
-                    Prihlásenie
-                </h3>
-              <p>
-                <div class="t">Prihlasovacie meno:</div>
-                <input type="text" placeholder="Meno" id="prihlas" />
-              </p>
-              <p>
-                <div class="t">Heslo:</div>
-                <input type="password" placeholder="Heslo" for="prihlas" />
-              </p>
-              <input type="checkbox" />&nbsp;&nbsp;Zapamätaj si ma
-              <p>
-                <br />
-                <button class="btn btn-success">Prihlásiť</button>
-              </p>
+  <body>
+    <header>
+      <h1>Kasička</h1>
+    </header>
+
+  <section class="login-page">
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" col col-md-4">
+          <form class="form-sign">
+            <h1 >Prihlásenie</h1>
+            <label for="inputEmail" class="sr-only"></label>
+            <input type="email" id="inputlogname" class="form-control" placeholder="Prihlasovacie meno" required autofocus>
+            <label for="inputPassword" class="sr-only"></label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Heslo" required>
+            <div class="checkbox">
+              <label>
+              <input type="checkbox" value="pamataj"> Zapamätaj si ma
+              </label>
             </div>
-           </div>
-       </div>
+              <button class="btn btn-lg btn-primary " type="submit">Prihlásiť</button>
+                <p>&copy; 2020</p>
+          </form>
+        </div>
+     </div>
+   </div>
+    
   </body>
 </html>
