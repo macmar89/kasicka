@@ -1,13 +1,15 @@
-body {
+body,
+a,
+form,
+header,
+button {
   font-family: "Amatic SC", cursive;
   font-weight: 400;
+  letter-spacing: 2px;
 }
+
 header {
-  height: 250px;
   background-image: linear-gradient(to bottom, #919191, white);
-  position: relative;
-  font-size: 40px;
-  margin: 0;
 }
 
 header h1 {
@@ -18,28 +20,15 @@ header h1 {
   text-align: center;
 }
 
-.head-login {
-  position: absolute;
-  right: 20px;
-  bottom: 10px;
-  background: transparent;
-  font-size: 1.5rem;
-}
-.head-login .loginbutton {
-  display: inline-block;
-  color: white;
-  background: #007bff;
-  border: 1px solid #007bff;
-  border-radius: 5px;
-  padding: 0.375rem 0.75rem;
-  font-weight: 400;
-
-  text-decoration: none;
-  text-align: center;
+.navbar {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-section {
-  padding-top: 30px;
+.btn {
+  width: 100px;
+  margin: 0 15px;
+  font-size: 700;
 }
 
 .col-sm h5 {
@@ -81,6 +70,38 @@ label {
 .table tr {
   border-bottom: 5px solid #e6e6e6;
 }
+
+/* login
+----------------------------------------------------------------------------
+*/
+
+.login-page .col {
+  margin: 0 auto;
+}
+
+.form-inline .btn-login {
+  line-height: 30px;
+}
+
+.form-sign {
+  padding: 1rem;
+}
+.form-sign h1 {
+  margin-bottom: 2rem;
+}
+.form-sign input {
+  margin-bottom: 1rem;
+}
+.form-sign input:last-child {
+  margin-bottom: 2rem;
+}
+.form-sign p {
+  margin-top: 3rem;
+}
+
+/* responzivita
+----------------------------------------------------------------------------
+*/
 
 @media (min-width: 768px) {
   label {

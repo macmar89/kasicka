@@ -2,54 +2,49 @@
  
        <!DOCTYPE html>
 <html lang="sk">
-  <head></head>
-    <meta charset="UTF-8" />
+
+  <head>
+  <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/index.css" />s
-    
+    <link rel="stylesheet" href="css/style.css" />
     <title>Kasička</title>
     
   </head>
   <body>
-
     <header>
       <h1>Kasička</h1>
     </header>
 
-
-    <div class="container">
+  <section class="login-page">
+    <div class="container-fluid">
       <div class="row">
-       <div class="col-4" >
-           <h3>
-               Prihlásenie
-           </h3>
-         <p>
-           <div class="t">Prihlasovacie meno:</div>
-           <input type="text" placeholder="Meno" id="prihlas" />
-         </p>
-         <p>
-           <div class="t">Heslo:</div>
-           <input type="password" placeholder="Heslo" for="prihlas" />
-         </p>
-         <input type="checkbox" />&nbsp;&nbsp;Zapamätaj si ma
-         <p>
-           <br />
-           <button class="btn btn-success">Prihlásiť</button>
-         </p>
-       </div>
-      </div>
-  </div>
-
- 
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
+        <div class=" col col-md-4">
+          <form class="form-sign">
+            <h1 >Prihlásenie</h1>
+            <label for="inputEmail" class="sr-only"></label>
+            <input type="email" id="inputlogname" class="form-control" placeholder="Prihlasovacie meno" required autofocus>
+            <label for="inputPassword" class="sr-only"></label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Heslo" required>
+            <div class="checkbox">
+              <label>
+              <input type="checkbox" value="pamataj"> Zapamätaj si ma
+              </label>
+            </div>
+              <button class="btn btn-lg btn-primary " type="submit">Prihlásiť</button>
+                <p>&copy; 2020</p>
+          </form>
+        </div>
+     </div>
+   </div>
+    
+    
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
 </html>

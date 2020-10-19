@@ -1,0 +1,123 @@
+body,
+a,
+form,
+header,
+button {
+  font-family: "Amatic SC", cursive;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #919191, white);
+}
+
+header h1 {
+  color: #d6b136;
+  font-size: 130px;
+  font-weight: 700;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.navbar {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: 100px;
+  margin: 0 15px;
+  font-size: 700;
+}
+
+.col-sm h5 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: oblique;
+}
+
+.container-fluid {
+  margin-top: 25px;
+}
+
+form {
+  text-align: center;
+  margin: 20px 0;
+}
+
+label {
+  display: none;
+}
+
+.form-group {
+  display: inline-block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  border: 5px solid #e6e6e6;
+  border-radius: 5px;
+}
+
+.table th {
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  font-size: 35px;
+  background: #e6e6e6;
+  color: #d6b136;
+}
+
+.table tr {
+  border-bottom: 5px solid #e6e6e6;
+}
+
+/* login
+----------------------------------------------------------------------------
+*/
+.login-page .col {
+  margin: 0 auto;
+}
+
+.form-inline .btn-login {
+  line-height: 30px;
+}
+
+.form-sign {
+  padding: 1rem;
+}
+
+.form-sign h1 {
+  margin-bottom: 2rem;
+}
+
+.form-sign input {
+  margin-bottom: 1rem;
+}
+
+.form-sign input:last-child {
+  margin-bottom: 2rem;
+}
+
+.form-sign p {
+  margin-top: 3rem;
+}
+
+/* responzivita
+----------------------------------------------------------------------------
+*/
+@media (min-width: 768px) {
+  label {
+    display: initial;
+  }
+
+  .form-group {
+    display: initial;
+    width: initial;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
