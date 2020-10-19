@@ -2,6 +2,11 @@ body {
   font-family: "Amatic SC", cursive;
   font-weight: 400;
 }
+a,
+form {
+  font-family: "Amatic SC", cursive;
+}
+
 header {
   height: 250px;
   background-image: linear-gradient(to bottom, #919191, white);
