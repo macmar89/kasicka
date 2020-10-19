@@ -1,22 +1,18 @@
-body {
+body,
+a,
+form, 
+header {
   font-family: "Amatic SC", cursive;
   font-weight: 400;
-}
-a,
-form {
-  font-family: "Amatic SC", cursive;
+
 }
 
 header {
-  height: 250px;
   background-image: linear-gradient(to bottom, #919191, white);
-  position: relative;
-  font-family: "Amatic SC", cursive;
-  font-size: 40px;
 }
 
 header h1 {
-  font-family: "Amatic SC", cursive;
+
   color: #d6b136;
   font-size: 130px;
   font-weight: 700;
@@ -24,12 +20,6 @@ header h1 {
   text-align: center;
 }
 
-.head-login {
-  position: absolute;
-  right: 20px;
-  bottom: 10px;
-  background: transparent;
-}
 .btn {
   height: 45px;
   width: 100px;
