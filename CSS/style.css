@@ -85,6 +85,10 @@ label {
   margin: 0 auto;
 }
 
+.form-inline .btn-login {
+      line-height: 30px;
+}
+
 .form-sign {
 
   padding: 1rem;
