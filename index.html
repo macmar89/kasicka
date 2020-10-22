@@ -1,169 +1,131 @@
 <!DOCTYPE html>
 <html lang="sk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
 
-    <title>Kasička</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
 
-  <body>
-    <header class="jumbotron">
-      <h1>Kasička</h1>
-    </header>
+  <title>Kasička</title>
+</head>
 
-    <div class="container">
-      <nav class="navbar navbar-expand-md navbar-light">
-        <a class="navbar-brand" href="#menu"
-          ><i class="fas fa-music"></i>Menu</a
-        >
-        <button
-          class="navbar-toggler collapsed"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#novinky">
-                <i class="fas fa-guitar"></i>Novinky</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#koncerty">
-                <i class="fas fa-guitar"></i>Výdaje</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#foto">
-                <i class="fas fa-guitar"></i>Foto</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#video">
-                <i class="fas fa-guitar"></i>Video</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#booking">
-                <i class="fas fa-guitar"></i>Booking</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#omne">
-                <i class="fas fa-guitar"></i>O mne</a
-              >
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <a class="btn btn-primary btn-login" href="login.html"
-              >Prihlásenie</a
-            >
-          </form>
+<body>
+  <header class="jumbotron">
+    <h1>Kasička</h1>
+  </header>
+
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="#menu"><i class="fas fa-music"></i>Menu</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#novinky">
+              <i class="fas fa-guitar"></i>Novinky</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#koncerty">
+              <i class="fas fa-guitar"></i>Výdaje</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#foto">
+              <i class="fas fa-guitar"></i>Foto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#video">
+              <i class="fas fa-guitar"></i>Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#booking">
+              <i class="fas fa-guitar"></i>Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#omne">
+              <i class="fas fa-guitar"></i>O mne</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="btn btn-primary btn-login" href="login.html">Prihlásenie</a>
+        </form>
+      </div>
+    </nav>
+
+    <section class="container">
+      <div class="row novy-zaznam">
+        <div class="col-12 col-md-4">
+          <div class="form-group">
+            <label for="ID">ID kód</label>
+            <input type="text" class="form-control" id="ID" placeholder="ID kód bloku" aria-describedby="emailHelp" />
+          </div>
         </div>
-      </nav>
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-md-4">
-            <div class="form-group">
-              <label for="ID">ID kód</label>
-              <input
-                type="text"
-                class="form-control"
-                id="ID"
-                placeholder="ID kód bloku"
-                aria-describedby="emailHelp"
-              />
-            </div>
+        <div class="col-12 col-md-4 offset-md-1">
+          <div class="form-group">
+            <label for="meno">Meno</label>
+            <input type="text" class="form-control" placeholder="Kupujúci" id="meno" />
+            <small id="meno" class="form-text text-muted"></small>
           </div>
-          <div class="col-12 col-md-4 offset-md-1">
-            <div class="form-group">
-              <label for="meno">Meno</label>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Kupujúci"
-                id="meno"
-              />
-              <small id="meno" class="form-text text-muted"></small>
-            </div>
-          </div>
-          <div class="col-12 col-md-2 offset-md-1">
-            <div class="form-group form-check"></div>
-            <button type="submit" class="btn btn-primary" for="ID">
-              Vložiť
-            </button>
-          </div>
+        </div>
+        <div class="col-12 col-md-2 offset-md-1">
+          <div class="form-group form-check"></div>
+          <button type="submit" class="btn btn-primary" for="ID">
+            Vložiť
+          </button>
         </div>
       </div>
+    </section>
 
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <table class="table table-hover">
-              <thead>
-                <tr>
-                  <th>Dátum</th>
-                  <th>Miesto</th>
-                  <th>Suma</th>
-                  <th>Meno</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>18.09.2020</td>
-                  <td>Lidl</td>
-                  <td>18,09€</td>
-                  <td>Jožo</td>
-                </tr>
-                <tr>
-                  <td>18.09.2020</td>
-                  <td>Lidl</td>
-                  <td>18,09€</td>
-                  <td>Jožo</td>
-                </tr>
-                <tr>
-                  <td>18.09.2020</td>
-                  <td>Lidl</td>
-                  <td>18,09€</td>
-                  <td>Jožo</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Dátum</th>
+                <th>Miesto</th>
+                <th>Suma</th>
+                <th>Meno</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>18.09.2020</td>
+                <td>Lidl</td>
+                <td>18,09€</td>
+                <td>Jožo</td>
+              </tr>
+              <tr>
+                <td>18.09.2020</td>
+                <td>Lidl</td>
+                <td>18,09€</td>
+                <td>Jožo</td>
+              </tr>
+              <tr>
+                <td>18.09.2020</td>
+                <td>Lidl</td>
+                <td>18,09€</td>
+                <td>Jožo</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
+  </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
